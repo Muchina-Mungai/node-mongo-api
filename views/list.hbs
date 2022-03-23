@@ -1,0 +1,22 @@
+<h1>Courses</h1>
+
+<table>
+    <tr>
+        <th>Course Name</th>
+        <th>Course Duration</th>
+    </tr>
+    {{#each data}}
+    <tr>
+	{{#with this}}
+        <td>{{CourseName}}</td>
+        <td>{{CourseId}}</td>
+	{{/with}}
+	
+
+
+
+    </tr>
+    {{/each}}
+	
+</table>
+<p>{{data}}</p>
